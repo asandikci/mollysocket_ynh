@@ -38,12 +38,25 @@ ynh_script_progression "Upgrading source files..."
 ### You can list with --keep every file/directory to *not* wipe or overwrite,
 ### useful for configuration files, data directories, or plugins.
 # Download, check integrity, uncompress and patch the source from manifest.toml
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep=".env data"
+ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="prod.toml mollysocket.db"
 
 ### $install_dir will automatically be initialized with some decent
 ### permissions by default... however, you may need to recursively reapply
 ### ownership to all files such as after the ynh_setup_source step
 chown -R "$app:www-data" "$install_dir"
+
+#=================================================
+# APP INITIAL CONFIGURATION
+#=================================================
+ynh_script_progression "Adding $app's configuration files..."
+
+ynh_config_add --template="prod.toml" --destination="$install_dir/prod.toml"
+
+# FIXME: this should be handled by the core in the future
+### You may need to use chmod 600 instead of 400,
+### for example if the app is expected to be able to modify its own config
+chmod 400 "$install_dir/prod.toml"
+chown "$app:$app" "$install_dir/prod.toml"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
