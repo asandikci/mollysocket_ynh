@@ -3,7 +3,7 @@
 packaging_format = 2
 
 id = "mollysocket"
-name = "Mollysocket push server"
+name = "Mollysocket"
 description.en = "Server for unified push support in Molly chat application"
 description.fr = "Serveur pour le support de unified push dans l’application de discussions Molly"
 
@@ -16,7 +16,7 @@ maintainers = ["mcmic"]
 license = "AGPL-3.0-or-later" # you can see the available licenses identifiers list here: https://spdx.org/licenses/
 website = "https://molly.im/"
 #demo = "https://demo.example.com"
-admindoc = "https://github.com/mollyim/mollysocket"
+admindoc = "https://github.com/mollyim/mollysocket/blob/main/README.md"
 #userdoc = "https://yunohost.org/apps"
 code = "https://github.com/mollyim/mollysocket"
 # FIXME: optional but recommended if relevant, this is meant to contain the Common Platform Enumeration, which is
@@ -85,7 +85,6 @@ ram.runtime = "50M"
     [resources.install_dir]
     # This will create/remove the install dir as /var/www/$app
     # and store the corresponding setting $install_dir
-    # FIXME should be /opt I think
 
     [resources.permissions]
     # This will configure SSOwat permission for $domain/$path/

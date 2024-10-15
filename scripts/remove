@@ -45,8 +45,6 @@ ynh_safe_rm "/etc/cron.d/$app"
 
 ynh_safe_rm "/etc/$app"
 
-ynh_safe_rm "/var/log/$app"
-
 #=================================================
 # END OF SCRIPT
 #=================================================
