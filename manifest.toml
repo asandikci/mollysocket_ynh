@@ -67,7 +67,7 @@ ram.runtime = "50M"
     arm64.sha256 = "6eefe8e1f274897198eb58baddc384498a7b3850b74224ea0d93416d0920512c"
     armhf.url = "https://github.com/mollyim/mollysocket/releases/download/1.4.1/mollysocket-linux_arm_v7"
     armhf.sha256 = "f40aa348c3dc4c17174b28c511565be22ca48761a0225147d9ad945f94475a01"
-
+    rename = "ms"
 
     # These infos are used by https://github.com/YunoHost/apps/blob/master/tools/autoupdate_app_sources/autoupdate_app_sources.py
     # to auto-update the previous asset urls and sha256sum + manifest version
