@@ -62,11 +62,12 @@ ram.runtime = "50M"
     #    ynh_setup_source --dest_dir="$install_dir"
     # You can also define other assets than "main" and add --source_id="foobar" in the previous command
     amd64.url = "https://github.com/mollyim/mollysocket/releases/download/1.4.1/mollysocket-linux_amd64"
-    amd64.sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    amd64.sha256 = "a162b394f4a016a80eb1a148624d8e650027bfb3ed9b65902dc5e84a7ed14fa2"
     arm64.url = "https://github.com/mollyim/mollysocket/releases/download/1.4.1/mollysocket-linux_arm64"
-    arm64.sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    arm64.sha256 = "6eefe8e1f274897198eb58baddc384498a7b3850b74224ea0d93416d0920512c"
     armhf.url = "https://github.com/mollyim/mollysocket/releases/download/1.4.1/mollysocket-linux_arm_v7"
-    armhf.sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    armhf.sha256 = "f40aa348c3dc4c17174b28c511565be22ca48761a0225147d9ad945f94475a01"
+
 
     # These infos are used by https://github.com/YunoHost/apps/blob/master/tools/autoupdate_app_sources/autoupdate_app_sources.py
     # to auto-update the previous asset urls and sha256sum + manifest version
