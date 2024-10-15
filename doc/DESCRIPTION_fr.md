@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+MollySocket permet d'obtenir des notifications Signal via UnifiedPush. Il fonctionne comme un périphérique lié, qui n'a pas de clé de chiffrement, connecté au serveur Signal. Chaque fois qu'il reçoit un événement chiffré, il informe votre téléphone via UnifiedPush.
