@@ -1,4 +1,4 @@
-Check that the service is running with systemctl status mollysocket
+Check that the service is running with: systemctl status mollysocket
 
 The app url is <https://__DOMAIN____PATH__>
 
