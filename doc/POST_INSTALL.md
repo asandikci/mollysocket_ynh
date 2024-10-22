@@ -1,4 +1,4 @@
-This is a dummy disclaimer to display after the install
+Check that the service is running with: systemctl status mollysocket
 
 The app url is <https://__DOMAIN____PATH__>
 

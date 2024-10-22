@@ -1,3 +1,3 @@
-This is a dummy admin doc for this app
-
 The app install dir is `__INSTALL_DIR__`
+
+Your push service is running at https://__DOMAIN__
