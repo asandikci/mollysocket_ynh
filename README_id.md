@@ -20,11 +20,6 @@ MollySocket allows getting signal notifications via UnifiedPush. It works like a
 
 
 **Versi terkirim:** 1.4.1~ynh1
-
-## Tangkapan Layar
-
-![Tangkapan Layar pada Mollysocket](./doc/screenshots/example.jpg)
-
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://molly.im/>
